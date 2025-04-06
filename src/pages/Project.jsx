@@ -130,14 +130,14 @@ export function Project({ title, description, image }) {
     return (
         <>
             <Header />
-            <IntroSection title='Drexler Jesus Guzmán Cruz' subtitle='Informatic and Multimedia Technology' />
+            {/* <IntroSection title='Drexler Jesus Guzmán Cruz' subtitle='Informatic and Multimedia Technology' /> */}
             <div className="md:mx-60 mx-5 overflow-hidden">
 
                 <SecondSection title={project.title} description={project.description} subtitle={project.subtitle} />
 
                 <div className="md:w-[50vw] m-auto">
 
-                    <Slider {...settings}>
+                    <Slider {...settings} className="">
                         {project.image.map((img, index) => (
                             <div key={index} className="bg-grey-1 rounded-lg drop-shadow-lg">
                                 <picture className="p-4 flex justify-center items-center">
