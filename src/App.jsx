@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="https://drexlerguzmanportfolio.netlify.app" element={<Index />} />
-        <Route path="https://drexlerguzmanportfolio.netlify.app/project/:id" element={<Project />} />
-        <Route path="https://drexlerguzmanportfolio.netlify.app/contact-me" element={<ContactMe />} />
-        <Route path="https://drexlerguzmanportfolio.netlify.app/about-me" element={<AboutMe />} />
-        <Route path="https://drexlerguzmanportfolio.netlify.app/projects" element={<AllProjects />} />
+        <Route path="/" element={<Index />} />
+        <Route path="/project/:id" element={<Project />} />
+        <Route path="/contact-me" element={<ContactMe />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/projects" element={<AllProjects />} />
       </Routes>
     </>
   )
