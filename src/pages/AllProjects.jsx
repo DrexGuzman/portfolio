@@ -11,7 +11,7 @@ export function AllProjects() {
     return (
         <>
             <Header />
-            <main className='md:mx-60 mx-5'>
+            <main className='md:mx-60 mx-5 overflow-hidden'>
                 <IntroSection title='All the projects' subtitle=' I contributed to throughout the development and deployment phase' />
 
                 <div className='flex flex-wrap'>

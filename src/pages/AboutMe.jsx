@@ -6,7 +6,7 @@ export function AboutMe() {
     return(
     <>
     <Header />
-    <main className="mx-60">
+    <main className="mx-60 overflow-hidden">
 
 
     </main>

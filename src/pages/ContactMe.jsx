@@ -7,7 +7,7 @@ export function ContactMe() {
     return (
     <>
     <Header />
-    <main className="md:mx-60 mx-5">
+    <main className="md:mx-60 mx-5 overflow-hidden">
         <SecondSection title='Contact Me' description='Feel free to reach out for any inquiries or collaborations!' subtitle='Lets stay in a touch' />
         <form 
             className='flex flex-col gap-5 items-center justify-center' 

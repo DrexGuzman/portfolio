@@ -64,11 +64,11 @@ export function Index() {
         <>
             <Header />
 
-            <main className='md:mx-60 mx-5'>
+            <main className='md:mx-60 mx-5 overflow-hidden'>
                 <IntroSection title='Drexler Jesus Guzmán Cruz' subtitle='Informatic and Multimedia Technology' />
                 <h2 className="text-center md:text-subtitulo text-texto font-third text-blue-2 pb-10">(University of Costa Rica)</h2>
 
-                <div className='md:flex md:justify-center gap-20'>
+                <div className='md:flex md:justify-center md:gap-20 flex flex-col md:flex-row items-center'>
                     <ProfileCard image={Drex} age='30' status='single' location='Puntarenas, El Roble' phone='+(506)8486 8704' email='d.jesusgc95@gmail.com' />
 
                     <div className='h-full w-full m-auto gap-4'>
@@ -93,11 +93,12 @@ export function Index() {
                     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3e491dd-54df-4066-b013-95f1661baa43" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b1678260-d131-4e4d-81e5-661ac31e8261" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7bab7fd2-c568-4e28-842e-c42ac65426de" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bb2aad20-f3be-4fd0-bf89-23ae505744f3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                 </div>
 
                 {/* Section about projects */}
                 <SecondSection title='What have I done?' description='I am a passionate programmer who loves creativity and challenges. I have worked on university, personal, and professional projects, always seeking to learn and grow.' subtitle='Projects' />
-                <Slider {...settings} className="px-4 flex justify-center gap-10">
+                <Slider {...settings} className="px-4 flex justify-center gap-10 mb-5">
                     <ProjectCard id={1} title='A la Deriva' date='21/04/24' description='A project from the Fundamentals of Programming course, which involved creating a video game with a free theme and design style, implementing threads, collisions, commands, and JSON files.' image={proyect} />
                     {/* <ProjectCard id={2} title='Quintana del Rey' date='21/04/24' description='A website developed in pure HTML and CSS for a fictional Spanish food restaurant. Laragon was used as a local server, and an entity-relationship model was created for the database. Additionally, web scraping was performed to obtain recipe descriptions and images to display on the website.' image={proyect} /> */}
                     <ProjectCard id={3} title='Vinx' date='21/04/24' description='A website similar to a virtual agenda for university courses was developed using React and Tailwind for the frontend and Laravel for the backend. There were two modules: the student module, where students belonged to courses and their assignments were displayed in their calendar within the application, and the teacher module, where teachers could add courses, groups, and assignments for each group.' image={vinx} />
@@ -105,11 +106,7 @@ export function Index() {
                     <ProjectCard id={5} title='Cabinas San Isidro' date='05/11/24' description='Web site for a local Cabins equipped for tourist rental in Puntarenas, Costa Rica.' image={csi} />
                 </Slider>
 
-
-
             </main>
-
-
 
             <Footer />
         </>
