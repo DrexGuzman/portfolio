@@ -1,0 +1,20 @@
+.underline-animation {
+    position: relative;
+    display: inline-block;
+    color: white; /* Ajusta el color según sea necesario */
+  }
+  
+  .underline-animation::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Ajusta la posición vertical del subrayado */
+    left: 0;
+    width: 0;
+    height: 2px; /* Grosor del subrayado */
+    background-color: currentColor; /* Usa el color del texto */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .underline-animation:hover::after {
+    width: 100%;
+  }
