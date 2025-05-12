@@ -1,0 +1,97 @@
+[
+    {
+            "id": 1,
+            "title": "A la Deriva",
+            "description": "Video game developed in Java using the NetBeans IDE. It is a pixel art-style game consisting of three levels, each progressively more challenging. The game's aesthetic embraces the retro feel of pixel design, immersing players in a nostalgic yet engaging experience",
+            "subtitle": "Java Video Game",
+            "image": [
+                "../projects/juego/MenuPrincipal.png",
+                "../projects/juego/Controles.png",
+                "../projects/juego/Historia.png",
+                "../projects/juego/Nivel1.png",
+                "../projects/juego/Nivel2.png",
+                "../projects/juego/Nivel3.png",
+                "../projects/juego/Win.png"
+            ],
+            "link": "https://via.placeholder.com/400",
+            "funtionals": "• Thread implementation: Ensures smooth gameplay and responsive interactions.\n• Game data storage: Player progress is saved in a JSON file after each session.\n• Collision detection: Critical for gameplay mechanics and interactions between the player and in-game elements.",
+            "noFuntionals": "• Programming language: Java",
+            "technical": "• Sound effects and background music: Enhances player immersion and game atmosphere.\n• Pause and resume functionality: Allows players to take breaks without losing progress.\n• Keyboard input support: Ensures smooth and intuitive controls.\n• Basic UI elements: Menus, score display, and game over screens for a complete player experience."
+        },
+        {
+            "id": 2,
+            "title": "Quintana del Rey",
+            "description": "Fictional website developed for academic purposes, simulating a real-world web solution for a Spanish cuisine restaurant. The objective was to create a complete eCommerce-style restaurant platform that allowed users to explore the menu, add items to a cart, and place orders. The site was built from scratch using core web technologies and backend development in Laravel, without relying on CSS frameworks. The data presented on the site was hypothetical, and no real payment processing was implemented.",
+            "subtitle": "Web Application",
+            "image": [
+                "../projects/juego/MenuPrincipal.png",
+                "../projects/juego/Controles.png",
+                "../projects/juego/Historia.png",
+                "../projects/juego/Nivel1.png",
+                "../projects/juego/Nivel2.png",
+                "../projects/juego/Nivel3.png",
+                "../projects/juego/Win.png"
+            ],
+            "link": "https://via.placeholder.com/400",
+            "funtionals": "• Web scraping integration: Automatically populate the database with categories such as dishes, drinks, desserts, and appetizers from online sources.\n• Admin dashboard: A private section for administrators to manage menu items (create, update, delete).\n• Shopping cart system: Users can browse the menu, add items to their cart, and place an order.\n• Order submission: Orders are stored in the database once submitted.\n• Data validation and error handling: Ensures consistent and reliable user input and backend processing.",
+            "noFuntionals": "No use of CSS frameworks: All styling must be implemented manually with custom CSS.\n• Simulated environment: The restaurant and its data are entirely fictional and used for educational demonstration only.\n• Usability: The interface should be user-friendly and intuitive for both customers and administrators.\n• Responsiveness: The website should adapt to various screen sizes, ensuring accessibility on desktop and mobile devices.",
+            "technical": "Frontend: HTML, CSS (without frameworks), JavaScript.\n• Backend: PHP.\n• Database: MySQL (or any Laravel-supported DB).\n• Web scraping: Use of libraries or custom scripts to retrieve content from the web and populate the application's database.\n• No payment gateway integration: Orders are stored without actual transaction processing."
+        },
+        {
+            "id": 3,
+            "title": "Vinx",
+            "description": "web application developed for academic purposes, designed to function as a virtual agenda for students. Built with React, Tailwind CSS, and JavaScript on the frontend, and Laravel on the backend, the application offers a centralized platform where students can manage their academic responsibilities and track their course progress. The backend was developed for use by professors, allowing them to manage their courses and student data. All development and testing were conducted in a local environment (localhost).",
+            "subtitle": "Web Application",
+            "image": [
+                "../projects/vinx/logo_vinx.jpg",
+                "../projects/vinx/actividades diarias.jpg",
+                "../projects/vinx/Main-1.jpg",
+                "../projects/vinx/Main.jpg",
+                "../projects/vinx/Progreso.jpg",
+                "../projects/vinx/vinxLogin.jpg"
+            ],
+            "link": "https://via.placeholder.com/400",
+            "funtionals": "Student Features:\n• Course enrollment management: Students can view the courses they are enrolled in.\n• Interactive calendar: Displays upcoming activities with filters for university-wide, course-specific, and personal events.\n• Task progress tracking: Visual representation of course progress based on pending and completed assignments.\n• Upcoming event reminder: A dedicated section that highlights the next scheduled activity.\n• Weekly activity list: Shows all tasks and events for the current week.\n• Event creation: Students can add personal events or notes to their calendar.\nProfessor Features (Admin Panel):\nCourse management: Full CRUD (Create, Read, Update, Delete) functionality for courses.\n• Student management: Professors can register students to specific courses.\n• Task management: Professors can create, edit, and delete assignments for each course.",
+            "noFuntionals": "• Responsive design: The application should adapt well to desktop and mobile devices.\n• Local-only deployment: All development and data management occurred locally, with no external hosting or production deployment.\n• User-friendly interface: Clean, accessible UI using Tailwind CSS for styling consistency.\n• Separation of roles: Students and professors access distinct features based on their role in the system.",
+            "technical": "• Frontend: React, Tailwind CSS, JavaScript.\n• Backend: Laravel (PHP framework).\n• Database: MySQL or compatible database supported by Laravel.\n• Role-based access control: Different permissions and views for students and professors.\n• Local development environment: All testing and usage were done on localhost, simulating real-world use without live deployment."
+        },
+        {
+            "id": 4,
+            "title": "Marlin",
+            "description": "Mobile eCommerce application developed to support and promote local commerce in the Costa Rican communities of Puntarenas, El Roble, Barranca, Esparza, and Miramar. The platform was designed to empower small local businesses by allowing them to register for free and increase their digital visibility. Additionally, the app fosters employment by enabling local couriers to sign up and earn commissions through deliveries. Marlin was built with a community-first mindset, aiming to simplify the buying, selling, and delivering process within the region.",
+            "subtitle": "ECommerce (Mobile Application)",
+            "image": [
+                "../projects/marlin/Marlin-loading.jpeg",
+                "../projects/marlin/main.jpeg",
+                "../projects/marlin/categories.jpeg",
+                "../projects/marlin/search.jpeg",
+                "../projects/marlin/stores.jpeg",
+                "../projects/marlin/inventory.jpeg"
+            ],
+            "link": "https://via.placeholder.com/400",
+            "funtionals": "• Customer Module: Browse registered local shops, view product catalogs, place orders directly through the app, track orders and view delivery status.\n• Merchant Module: Business registration with product and inventory management, manage shop profile, product listings, and availability, receive and process customer orders.\n• Courier Module:Register as a delivery person, receive delivery assignments based on proximity to customer/shop,track delivery routes via integrated Google Maps, earn commission per delivery completed.",
+            "noFuntionals": "• Free business registration: Local entrepreneurs can join without any cost barriers.\n• Community-focused design: Optimized for the local economic ecosystem of Puntarenas and surrounding areas.\n• Agile development: Product backlogs were defined and adjusted in iterative sprints to continuously improve functionality.\n• Scalable and lightweight: Uses efficient tools and cloud services to minimize costs while ensuring reliability.\n• Mobile-first experience: Fully functional on Android devices with deployment via the Play Store.",
+            "technical": "Frontend: React Native with Tailwind CSS for styling.\n• Backend: Django (Python framework).\n• Database: NeonTech free tier.\n• Image Storage: Cloudinary for efficient image hosting.\n• Geolocation & Routing: Google Maps API, Google Matrix API, android app published on the Google Play Store.\n• Development Methodology: Agile, with defined sprints, product backlogs, and iterative improvements."
+        },
+        {
+            "id": 5,
+            "title": "Cabinas San Isidro",
+            "description": "The Cabinas San Isidro website is a static web platform created for a hotel located in Chacarita, Puntarenas. The main goal of the site is to present the hotel's facilities, showcase lodging options, highlight commercial partnerships, and provide important information for timeshare members. The website was designed to be informative, visually appealing, and easy to navigate for potential guests and stakeholders alike.\nThe project was developed using React and Tailwind CSS for the frontend, while Django was used to handle backend functionalities, including content management and data organization. Given the company's budget and project needs, Hostinger was chosen as the hosting provider for its affordability and adequate feature set.",
+            "subtitle": "Website",
+            "image": [
+                "../projects/csi/landing1.png",
+                "../projects/csi/landing2.png",
+                "../projects/csi/landing3.png",
+                "../projects/csi/landing4.png",
+                "../projects/csi/rooms.png",
+                "../projects/csi/benefects.png",
+                "../projects/csi/aboutus.png",
+                "../projects/csi/numbers.png",
+                "../projects/csi/contactus.png"
+            ],
+            "link": "https://lively-capybara-7354dc.netlify.app/",
+            "funtionals": "• Lodging overview: Showcase available accommodation options with descriptions and images.\n• Facilities gallery: Display images and details of the hotel's amenities.\n• Commercial partnerships: Dedicated section to highlight current business partnerships or alliances.\n• Timeshare member information: Provide updates, news, and documentation relevant to timeshare partners.\n• Contact form: Allow users to send inquiries directly through the website.",
+            "noFuntionals": "• Static content delivery: The site is designed for informative purposes, not for real-time transactions.\n• Clean and responsive design: Fully functional across desktop, tablet, and mobile devices.\n• Cost-effective hosting: Hosted on Hostinger to match the company’s budget and performance requirements.\n• Accessibility: Clear navigation and readable content for a wide audience.",
+            "technical": "• Frontend: React with Tailwind CSS for styling.\n• Backend: Django (Python framework) to manage structured content and dynamic sections.\n• Hosting: Hostinger, selected for its affordability and reliability for static and light dynamic websites.\n• Deployment: Static site elements pre-rendered and served efficiently, with backend endpoints as needed for content management."
+        }
+]
