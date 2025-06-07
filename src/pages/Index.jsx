@@ -60,6 +60,16 @@ export function Index() {
         ],
     };
 
+    const badges = [
+        "85ad294d-0ccc-4e95-9bc1-9a2a6b3857f4",
+        "b3e491dd-54df-4066-b013-95f1661baa43",
+        "b1678260-d131-4e4d-81e5-661ac31e8261",
+        "7bab7fd2-c568-4e28-842e-c42ac65426de",
+        "bb2aad20-f3be-4fd0-bf89-23ae505744f3",
+        "7c505bf0-5276-4373-b825-ba638beee025",
+        "3c6a1ce5-7bee-41e4-b4ee-eef01f2b6263"
+    ];
+
     return (
         <>
             <Header />
@@ -89,11 +99,15 @@ export function Index() {
                 {/* Section about certifications */}
                 <SecondSection title='My certifications' description='I have also taken additional courses in networking, cibersecurity, Ethical Hacking and cloud to further enhance my expertise.' subtitle='Certifications' />
                 <div className='flex flex-wrap justify-center gap-10'>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="85ad294d-0ccc-4e95-9bc1-9a2a6b3857f4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3e491dd-54df-4066-b013-95f1661baa43" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b1678260-d131-4e4d-81e5-661ac31e8261" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7bab7fd2-c568-4e28-842e-c42ac65426de" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bb2aad20-f3be-4fd0-bf89-23ae505744f3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    {badges.map(badgeId => (
+                        <div
+                            key={badgeId}
+                            data-iframe-width="150"
+                            data-iframe-height="270"
+                            data-share-badge-id={badgeId}
+                            data-share-badge-host="https://www.credly.com"
+                        ></div>
+                    ))}
                 </div>
 
                 {/* Section about projects */}

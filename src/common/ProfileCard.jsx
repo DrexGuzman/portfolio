@@ -15,7 +15,7 @@ export function ProfileCard({ image, age, status, location, phone, email }) {
             </div>
             <div className='py-4 px-2 flex flex-col'>
                 <h2 className="font-second font-bold text-texto mb-2">Personal Information</h2>
-                <IconData icon={locationImg} title={`Location: ${location}`}/>
+                {/* <IconData icon={locationImg} title={`Location: ${location}`}/> */}
                 <IconData icon={phoneImg} title={`Phone: ${phone}`} />
                 <IconData icon={emailImg} title={`Email: ${email}`} />
             </div>
